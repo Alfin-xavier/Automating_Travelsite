@@ -1,7 +1,5 @@
 package com.atmecs.automating_travelsite.utilities;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -28,14 +26,8 @@ public class TestNGListeners implements ITestListener
 	{
 		System.out.println(result.getName()+" "+"Failed!!");
 
-		try 
-		{
-			TakeScreenShots.takeScreenshot("errorpage");
-		}
-		catch (IOException e) 
-		{
-			e.printStackTrace();
-		}
+		TakeScreenShots.takeScreenshot(driver, result.getName());
+		
 	}
 
 	@Override
