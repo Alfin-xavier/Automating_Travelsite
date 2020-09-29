@@ -25,8 +25,6 @@ public class HandlingWindow extends BaseTest
 	public void handlingWindow(String Username, String PassWord)
 	{
 		LoginWindowHandling login = new LoginWindowHandling(driver);
-		
-		System.out.println(Username+"\n"+PassWord);
 
 		try 
 		{

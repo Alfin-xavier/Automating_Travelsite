@@ -6,11 +6,18 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.atmecs.automating_travelsite.tests.SearchingFlight">
+        <methods>
+          <include name="afterTest"/>
+          <include name="searchingFlight" invocation-numbers="1"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.atmecs.automating_travelsite.tests.SearchingFlight -->
       <class name="com.atmecs.automating_travelsite.tests.HandlingWindow">
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="handlingWindow" invocation-numbers="4"/>
+          <include name="handlingWindow" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.atmecs.automating_travelsite.tests.HandlingWindow -->
     </classes>

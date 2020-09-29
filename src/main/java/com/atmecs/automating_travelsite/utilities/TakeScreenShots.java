@@ -13,13 +13,17 @@ public class TakeScreenShots
 		{
 			try 
 			{
-				File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+				File scrnsht = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 				
-				FileUtils.copyFile(source, new File(Constants.SCREEN_SHOTS+screenshotName+".png"));
+				FileUtils.copyFile(scrnsht, new File(Constants.SCREEN_SHOTS+screenshotName+".png"));
 			} 
 			catch (Exception e) 
 			{
 				e.printStackTrace();
+			}
+			finally
+			{
+				
 			}
 			
 		}
