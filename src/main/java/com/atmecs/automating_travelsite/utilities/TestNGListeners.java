@@ -20,7 +20,7 @@ public class TestNGListeners implements ITestListener
 	@Override
 	public void onTestSuccess(ITestResult result) 
 	{
-		
+		System.out.println(result.getName()+" "+"Passed!!");
 	}
 
 	@Override
