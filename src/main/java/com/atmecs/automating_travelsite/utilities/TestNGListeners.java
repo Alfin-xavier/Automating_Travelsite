@@ -14,7 +14,7 @@ public class TestNGListeners implements ITestListener
 	@Override
 	public void onTestStart(ITestResult result) 
 	{
-		System.out.println(result.getName()+""+"excecuted successfully!!");
+		System.out.println(result.getName()+" "+"Startded!!");
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class TestNGListeners implements ITestListener
 	@Override
 	public void onTestFailure(ITestResult result) 
 	{
-		System.out.println(result.getName()+"Failed!!");
+		System.out.println(result.getName()+" "+"Failed!!");
 
 		try 
 		{
@@ -41,7 +41,7 @@ public class TestNGListeners implements ITestListener
 	@Override
 	public void onTestSkipped(ITestResult result) 
 	{
-		System.out.println("Skipped TestCase:"+result.getName());
+		System.out.println("Skipped TestCase:"+" "+result.getName());
 	}
 
 	@Override
