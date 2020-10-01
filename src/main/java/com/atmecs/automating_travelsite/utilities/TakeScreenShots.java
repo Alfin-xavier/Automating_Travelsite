@@ -1,6 +1,8 @@
 package com.atmecs.automating_travelsite.utilities;
 
 import java.io.File;
+import java.io.IOException;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -17,7 +19,7 @@ public class TakeScreenShots
 				
 				FileUtils.copyFile(scrnsht, new File(Constants.SCREEN_SHOTS+screenshotName+".png"));
 			} 
-			catch (Exception e) 
+			catch (IOException e) 
 			{
 				e.printStackTrace();
 			}

@@ -32,7 +32,7 @@ public class BaseTest
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(150, TimeUnit.SECONDS);
 		
-		TestNGListeners.driver = driver;
+		//TestNGListeners.driver = driver;
 	}
 
 	@AfterMethod

@@ -4,6 +4,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.atmecs.automating_travelsite.basetest.BaseTest;
+import com.atmecs.automating_travelsite.constants.Constants;
 import com.atmecs.automating_travelsite.pagehelper.SearchingFlights;
 import com.atmecs.automating_travelsite.utilities.ReadDataFromExcel;
 
@@ -12,7 +13,7 @@ public class SearchingFlight extends BaseTest
 	@DataProvider(name = "readData")
 	public Object[][] readData()
 	{
-		Object[][] data = ReadDataFromExcel.readExcelData("Search_credentials");
+		Object[][] data = ReadDataFromExcel.readExcelData(Constants.SEARCH_DATAS,"Searching_Flights");
 		
 		return data;
 	}

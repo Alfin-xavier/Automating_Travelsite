@@ -4,8 +4,8 @@ import java.io.IOException;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.atmecs.automating_travelsite.basetest.BaseTest;
+import com.atmecs.automating_travelsite.constants.Constants;
 import com.atmecs.automating_travelsite.pagehelper.LoginWindowHandling;
 import com.atmecs.automating_travelsite.utilities.ReadDataFromExcel;
 
@@ -15,8 +15,8 @@ public class HandlingWindow extends BaseTest
 	@DataProvider(name = "readData")
 	public Object[][] readData()
 	{
-		Object[][] data = ReadDataFromExcel.readExcelData("Login_credentials");
-		
+		Object[][] data = ReadDataFromExcel.readExcelData(Constants.LOGIN_DATAS,"Login_credentials");
+
 		return data;
 		
 	}
