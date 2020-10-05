@@ -4,22 +4,23 @@
   <listeners>
     <listener class-name="com.atmecs.automating_travelsite.utilities.TestNGListeners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.atmecs.automating_travelsite.tests.SearchingFlight">
-        <methods>
-          <include name="afterTest"/>
-          <include name="searchingFlight" invocation-numbers="1"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- com.atmecs.automating_travelsite.tests.SearchingFlight -->
       <class name="com.atmecs.automating_travelsite.tests.HandlingWindow">
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="handlingWindow" invocation-numbers="0"/>
+          <include name="handlingWindow"/>
         </methods>
       </class> <!-- com.atmecs.automating_travelsite.tests.HandlingWindow -->
+      <class name="com.atmecs.automating_travelsite.tests.SearchingFlight">
+        <methods>
+          <include name="afterTest"/>
+          <include name="searchingFlight"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.atmecs.automating_travelsite.tests.SearchingFlight -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
