@@ -4,7 +4,6 @@ import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import com.atmecs.automating_travelsite.constants.Constants;
 import com.atmecs.automating_travelsite.helpers.Helpers;
 import com.atmecs.automating_travelsite.utilities.PropertyReader;
@@ -19,6 +18,8 @@ public class SearchingFlights
 	
 	Properties locatorsFile;
 	
+	Object[][] readData;
+	
 	public SearchingFlights(WebDriver driver)
 	{
 		this.driver = driver;
@@ -30,6 +31,10 @@ public class SearchingFlights
 
 		locatorsFile = PropertyReader.readProperties(Constants.LOCATORS);
 		
+		//readData = ReadDataFromExcel.readExcelData("Sheet1");
+
+		//data = PropertyReader.readProperties(Constants.DATAS);
+
 		helpers.checkbox(locatorsFile.getProperty("roundtrip"));
 
 		driver.findElement(By.xpath(locatorsFile.getProperty("source"))).sendKeys(Source);

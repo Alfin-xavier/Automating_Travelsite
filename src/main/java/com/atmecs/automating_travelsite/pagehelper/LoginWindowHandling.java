@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.Properties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import com.atmecs.automating_travelsite.constants.Constants;
 import com.atmecs.automating_travelsite.helpers.Helpers;
 import com.atmecs.automating_travelsite.utilities.PropertyReader;
