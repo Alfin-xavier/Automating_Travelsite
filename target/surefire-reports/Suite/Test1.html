@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/10</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/8</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 06 23:58:27 IST 2020</td>
+<td>Started on:</td><td>Wed Oct 07 11:48:15 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11279 ms)</td>
+<tr><td>Total time:</td><td>86 seconds (86413 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,11 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight<br>Parameters: chrome</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
+<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=120775d0-0865-11eb-a3b0-3da338be9c10&amp;vid=]
 	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace855501888", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace855501888'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace289116032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace289116032'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=120775d0-0865-11eb-a3b0-3da338be9c10&amp;vid=]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -108,32 +112,27 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>4</td>
 <td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
 <tr>
-<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow<br>Parameters: chrome</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+<td title='com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight<br>Parameters: firefox</td>
+<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=12875430-0865-11eb-b8f3-a759af19e9df&amp;vid=]
 	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1161382705", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1161382705'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1617639299", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1617639299'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=12875430-0865-11eb-b8f3-a759af19e9df&amp;vid=]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -161,22 +160,61 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>5</td>
+<td>com.atmecs.automating_travelsite.tests.SearchingFlight@f8c1ddd</td></tr>
+<tr>
+<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow<br>Parameters: chrome</td>
+<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
+	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1487617569", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1487617569'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>5</td>
 <td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
@@ -191,93 +229,116 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight</td>
 <td></td>
-<td>-1602008912</td>
+<td>-1602051576</td>
 <td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight</td>
 <td></td>
-<td>-1602008912</td>
+<td>-1602051576</td>
 <td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight</td>
 <td></td>
-<td>-1602008912</td>
-<td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
+<td>-1602051577</td>
+<td>com.atmecs.automating_travelsite.tests.SearchingFlight@f8c1ddd</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight</td>
 <td></td>
-<td>-1602008912</td>
-<td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
+<td>-1602051577</td>
+<td>com.atmecs.automating_travelsite.tests.SearchingFlight@f8c1ddd</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
 <td></td>
-<td>-1602008918</td>
-<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
-<tr>
-<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
-<td></td>
-<td>-1602008918</td>
+<td>-1602051581</td>
 <td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
 <td></td>
-<td>-1602008918</td>
+<td>-1602051581</td>
 <td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
 <td></td>
-<td>-1602008918</td>
+<td>-1602051581</td>
+<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
+<tr>
+<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest()'><b>beforeTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
+<td></td>
+<td>-1602051581</td>
 <td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight</td>
 <td></td>
-<td>-1602008912</td>
+<td>-1602051576</td>
 <td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight</td>
 <td></td>
-<td>-1602008912</td>
+<td>-1602051576</td>
 <td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight</td>
 <td></td>
-<td>-1602008912</td>
+<td>-1602051576</td>
 <td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight</td>
 <td></td>
-<td>-1602008912</td>
-<td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
+<td>-1602051577</td>
+<td>com.atmecs.automating_travelsite.tests.SearchingFlight@f8c1ddd</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight</td>
 <td></td>
-<td>-1602008912</td>
+<td>-1602051577</td>
+<td>com.atmecs.automating_travelsite.tests.SearchingFlight@f8c1ddd</td></tr>
+<tr>
+<td title='com.atmecs.automating_travelsite.tests.SearchingFlight.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight</td>
+<td></td>
+<td>-1602051577</td>
+<td>com.atmecs.automating_travelsite.tests.SearchingFlight@f8c1ddd</td></tr>
+<tr>
+<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
+<td></td>
+<td>-1602051581</td>
+<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
+<tr>
+<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
+<td></td>
+<td>-1602051581</td>
+<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
+<tr>
+<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
+<td></td>
+<td>-1602051581</td>
+<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
+<tr>
+<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
+<td></td>
+<td>-1602051581</td>
+<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
+<tr>
+<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
+<td></td>
+<td>-1602051581</td>
+<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.atmecs.automating_travelsite.tests.SearchingFlight.searchingFlight()'><b>searchingFlight</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight<br>Parameters: Chennai, Hyderabad</td>
+<td></td>
+<td>1</td>
 <td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
 <tr>
-<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
+<td title='com.atmecs.automating_travelsite.tests.SearchingFlight.searchingFlight()'><b>searchingFlight</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight<br>Parameters: Coimbatore, Chennai</td>
 <td></td>
-<td>-1602008918</td>
-<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
-<tr>
-<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
-<td></td>
-<td>-1602008918</td>
-<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
-<tr>
-<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
-<td></td>
-<td>-1602008918</td>
-<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
-<tr>
-<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
-<td></td>
-<td>-1602008918</td>
-<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
-<tr>
-<td title='com.atmecs.automating_travelsite.tests.HandlingWindow.afterTest()'><b>afterTest</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow</td>
-<td></td>
-<td>-1602008918</td>
-<td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
+<td>2</td>
+<td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -288,11 +349,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow()'><b>handlingWindow</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow<br>Parameters: shanealfin720@gmail.com, alfinxavier.a</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
 	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace516413619", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace516413619'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1301230684", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1301230684'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -320,32 +385,27 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
 <td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow()'><b>handlingWindow</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow<br>Parameters: shanealfin720@gmail.com, alfinxavier.a</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
 	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1423752095", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1423752095'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1433323223", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1433323223'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -373,32 +433,27 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
 <td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow()'><b>handlingWindow</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow<br>Parameters: shanealfin720@gmail.com, alfinxavier.a</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
 	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1777043124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1777043124'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace208851922", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace208851922'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -426,32 +481,27 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
 <td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow()'><b>handlingWindow</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow<br>Parameters: shanealfin720@gmail.com, alfinxavier.a</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
 	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1788034018", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1788034018'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1710361059", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1710361059'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -479,32 +529,27 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
 <td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow()'><b>handlingWindow</b><br>Test class: com.atmecs.automating_travelsite.tests.HandlingWindow<br>Parameters: shanealfin720@gmail.com, alfinxavier.a</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
 	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1300576734", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1300576734'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=c014cbf0-0801-11eb-9852-adf281e6ccf1&amp;vid=]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace538852139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace538852139'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&amp;vid=]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -532,138 +577,27 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
 <td>com.atmecs.automating_travelsite.tests.HandlingWindow@3745e5c6</td></tr>
-<tr>
-<td title='com.atmecs.automating_travelsite.tests.SearchingFlight.searchingFlight()'><b>searchingFlight</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight<br>Parameters: Chennai, Hyderabad</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
-	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2041996211", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2041996211'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-</pre></div></td>
-<td>0</td>
-<td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
-<tr>
-<td title='com.atmecs.automating_travelsite.tests.SearchingFlight.searchingFlight()'><b>searchingFlight</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight<br>Parameters: Coimbatore, Chennai</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
-	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2021835850", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2021835850'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-</pre></div></td>
-<td>0</td>
-<td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.searchingFlight()'><b>searchingFlight</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight<br>Parameters: Chennai, Bangalore</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
+<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=120775d0-0865-11eb-a3b0-3da338be9c10&amp;vid=]
 	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace948424584", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace948424584'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1930016679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1930016679'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=120775d0-0865-11eb-a3b0-3da338be9c10&amp;vid=]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -691,32 +625,27 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
 <td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.searchingFlight()'><b>searchingFlight</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight<br>Parameters: Bangalore, Chennai</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
+<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=120775d0-0865-11eb-a3b0-3da338be9c10&amp;vid=]
 	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1345293143", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1345293143'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1809471268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1809471268'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=120775d0-0865-11eb-a3b0-3da338be9c10&amp;vid=]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -744,32 +673,27 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
 <td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
 <tr>
 <td title='com.atmecs.automating_travelsite.tests.SearchingFlight.searchingFlight()'><b>searchingFlight</b><br>Test class: com.atmecs.automating_travelsite.tests.SearchingFlight<br>Parameters: Hyderabad, Chennai</td>
-<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
+<td><div><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=120775d0-0865-11eb-a3b0-3da338be9c10&amp;vid=]
 	at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1427247001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1427247001'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=bcdf1c60-0801-11eb-89f9-01052e16f76a&amp;vid=]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1311034352", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1311034352'><pre>java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=120775d0-0865-11eb-a3b0-3da338be9c10&amp;vid=]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -797,22 +721,13 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
 <td>com.atmecs.automating_travelsite.tests.SearchingFlight@60611244</td></tr>
