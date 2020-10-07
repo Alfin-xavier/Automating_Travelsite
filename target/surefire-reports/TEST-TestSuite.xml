@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="186.439" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="37.979" tests="58" errors="0" skipped="53" failures="4">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="webdriver.chrome.driver" value="./lib/chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire6965438716610530712\surefirebooter2957900873794856593.jar C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire6965438716610530712 2020-10-06T12-40-06_774-jvmRun1 surefire10442634466966492136tmp surefire_010962339236984196219tmp"/>
+    <property name="sun.java.command" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire17724672919580329906\surefirebooter3776454820531520088.jar C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire17724672919580329906 2020-10-06T23-54-21_056-jvmRun1 surefire7314355206696662631tmp surefire_09094408224382910497tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\alfin.anthonyraj\Automation_Selenium\automating_travelsite\target\test-classes;C:\Users\alfin.anthonyraj\Automation_Selenium\automating_travelsite\target\classes;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alfin.anthonyraj\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alfin.anthonyraj\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire6965438716610530712\surefirebooter2957900873794856593.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire17724672919580329906\surefirebooter3776454820531520088.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -47,6 +47,7 @@
     <property name="java.version" value="14.0.1"/>
     <property name="user.dir" value="C:\Users\alfin.anthonyraj\Automation_Selenium\automating_travelsite"/>
     <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="./lib/geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-14.0.1/bin/server;C:/Program Files/Java/jdk-14.0.1/bin;C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\alfin.anthonyraj\eclipse\java-2020-032\eclipse;;."/>
@@ -56,132 +57,307 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="searchingFlight[Chennai, Hyderabad](1)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="1.224">
+  <testcase name="searchingFlight[Chennai, Hyderabad](1)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="2.06">
     <system-out><![CDATA[https://www.skyscanner.co.in/
 searchingFlight Startded!!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 22168
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 5552
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 06, 2020 12:40:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 06, 2020 11:54:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="searchingFlight[Coimbatore, Chennai](2)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="1.233">
+  <testcase name="searchingFlight[Chennai, Hyderabad](1)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=397524a0-0801-11eb-bc7d-ebdd45bfcc53&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="beforeTest[chrome](0)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="7.915">
+    <failure message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=32366ff0-0801-11eb-b07e-49218eb42c5e&amp;vid=]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=32366ff0-0801-11eb-b07e-49218eb42c5e&vid=]
+]]></failure>
     <system-out><![CDATA[searchingFlight Passed!!
-https://www.skyscanner.co.in/
-searchingFlight Startded!!
+https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=32366ff0-0801-11eb-b07e-49218eb42c5e&vid=
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 19053
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 23500
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 06, 2020 12:40:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 06, 2020 11:54:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="searchingFlight[Chennai, Bangalore](3)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="1.529">
-    <system-out><![CDATA[searchingFlight Passed!!
-https://www.skyscanner.co.in/
-searchingFlight Startded!!
+  <testcase name="searchingFlight[Coimbatore, Chennai](2)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=32366ff0-0801-11eb-b07e-49218eb42c5e&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 42477
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 06, 2020 12:40:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  </testcase>
+  <testcase name="searchingFlight[Coimbatore, Chennai](2)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=397524a0-0801-11eb-bc7d-ebdd45bfcc53&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="searchingFlight[Chennai, Bangalore](3)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=32366ff0-0801-11eb-b07e-49218eb42c5e&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="searchingFlight[Chennai, Bangalore](3)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=397524a0-0801-11eb-bc7d-ebdd45bfcc53&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="searchingFlight[Bangalore, Chennai](4)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=32366ff0-0801-11eb-b07e-49218eb42c5e&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="searchingFlight[Bangalore, Chennai](4)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=397524a0-0801-11eb-bc7d-ebdd45bfcc53&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="searchingFlight[Hyderabad, Chennai](5)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=32366ff0-0801-11eb-b07e-49218eb42c5e&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="searchingFlight[Hyderabad, Chennai](5)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=397524a0-0801-11eb-bc7d-ebdd45bfcc53&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="beforeTest[firefox](0)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="8.029">
+    <failure message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=397524a0-0801-11eb-bc7d-ebdd45bfcc53&amp;vid=]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=397524a0-0801-11eb-bc7d-ebdd45bfcc53&vid=]
+]]></failure>
+    <system-out><![CDATA[https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=397524a0-0801-11eb-bc7d-ebdd45bfcc53&vid=
+]]></system-out>
+    <system-err><![CDATA[1602008684910	geckodriver	INFO	Listening on 127.0.0.1:15351
+1602008685397	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilehYAxg3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602008691128	Marionette	INFO	Listening on port 62919
+1602008691139	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 06, 2020 11:54:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="searchingFlight[Bangalore, Chennai](4)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="1.211">
-    <system-out><![CDATA[searchingFlight Passed!!
-https://www.skyscanner.co.in/
-searchingFlight Startded!!
+  <testcase name="beforeTest[chrome](0)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="4.392">
+    <failure message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=34ca3a30-0801-11eb-8191-99362dc44268&amp;vid=]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=34ca3a30-0801-11eb-8191-99362dc44268&vid=]
+]]></failure>
+    <system-out><![CDATA[https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=34ca3a30-0801-11eb-8191-99362dc44268&vid=
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 37821
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 16411
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 06, 2020 12:41:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 06, 2020 11:54:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="searchingFlight[Hyderabad, Chennai](5)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="1.221">
-    <system-out><![CDATA[searchingFlight Passed!!
-https://www.skyscanner.co.in/
-searchingFlight Startded!!
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](1)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=34ca3a30-0801-11eb-8191-99362dc44268&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 34878
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 06, 2020 12:41:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](1)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="5.617">
-    <system-out><![CDATA[searchingFlight Passed!!
-https://www.skyscanner.co.in/
-handlingWindow Startded!!
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](1)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=3d34c4b0-0801-11eb-b2a8-6f6e4cb35ffa&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 34974
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 06, 2020 12:41:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](2)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="4.651">
-    <system-out><![CDATA[handlingWindow Passed!!
-https://www.skyscanner.co.in/
-handlingWindow Startded!!
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: handlingWindow
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 2669
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 06, 2020 12:41:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](3)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="5.289">
-    <system-out><![CDATA[handlingWindow Passed!!
-https://www.skyscanner.co.in/
-handlingWindow Startded!!
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: handlingWindow
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 34672
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 06, 2020 12:42:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](4)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="8.567">
-    <system-out><![CDATA[handlingWindow Passed!!
-https://www.skyscanner.co.in/
-handlingWindow Startded!!
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: handlingWindow
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 44164
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 06, 2020 12:42:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](5)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="15.721">
-    <system-out><![CDATA[handlingWindow Passed!!
-https://www.skyscanner.co.in/
-handlingWindow Startded!!
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: handlingWindow
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 38411
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 06, 2020 12:42:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: handlingWindow
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: handlingWindow
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: handlingWindow
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: handlingWindow
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: handlingWindow
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped TestCase: handlingWindow
+]]></system-out>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](2)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=34ca3a30-0801-11eb-8191-99362dc44268&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](2)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=3d34c4b0-0801-11eb-b2a8-6f6e4cb35ffa&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](3)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=34ca3a30-0801-11eb-8191-99362dc44268&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](3)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=3d34c4b0-0801-11eb-b2a8-6f6e4cb35ffa&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](4)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=34ca3a30-0801-11eb-8191-99362dc44268&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](4)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=3d34c4b0-0801-11eb-b2a8-6f6e4cb35ffa&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](5)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=34ca3a30-0801-11eb-8191-99362dc44268&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](5)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=3d34c4b0-0801-11eb-b2a8-6f6e4cb35ffa&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+]]></system-out>
+  </testcase>
+  <testcase name="beforeTest[firefox](0)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="6.631">
+    <failure message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=3d34c4b0-0801-11eb-b2a8-6f6e4cb35ffa&amp;vid=]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=3d34c4b0-0801-11eb-b2a8-6f6e4cb35ffa&vid=]
+]]></failure>
+    <system-out><![CDATA[https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=3d34c4b0-0801-11eb-b2a8-6f6e4cb35ffa&vid=
+]]></system-out>
+    <system-err><![CDATA[1602008692837	geckodriver	INFO	Listening on 127.0.0.1:42219
+1602008693260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileuI7q0P"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602008697336	Marionette	INFO	Listening on port 62966
+1602008697420	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 06, 2020 11:54:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
