@@ -1,0 +1,872 @@
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select RoundTrip
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Source
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Destination
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Depature Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select Return Date
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Select checkbox
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Search Button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-1] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Password
+[TestNG-tests-1] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking on the Login linktext
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Clicking login with gmail
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Switching Window
+[TestNG-tests-2] INFO  com.atmecs.automating_travelsite.utilities.Logging  - Providing Username
+[TestNG-tests-2] DEBUG com.atmecs.automating_travelsite.utilities.Logging  - Clicking the next button

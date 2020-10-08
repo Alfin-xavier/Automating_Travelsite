@@ -1,16 +1,78 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 52, Failures: 4, Errors: 0, Skipped: 44, Time elapsed: 90.718 s <<< FAILURE! - in TestSuite
-com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest[chrome](0)  Time elapsed: 13.424 s  <<< FAILURE!
-java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=120775d0-0865-11eb-a3b0-3da338be9c10&vid=]
+Tests run: 29, Failures: 7, Errors: 0, Skipped: 12, Time elapsed: 470.097 s <<< FAILURE! - in TestSuite
+com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow[shanealfin720@gmail.com, alfinxavier.a](1)  Time elapsed: 22.355 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 27180, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 992c0627-593a-40a3-95c2-77c93a7e6446
+	at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
 
-com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest[firefox](0)  Time elapsed: 0.935 s  <<< FAILURE!
-java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=12875430-0865-11eb-b8f3-a759af19e9df&vid=]
+com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow[shanealfin720@gmail.com, alfinxavier.a](2)  Time elapsed: 16.657 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 33648, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a3b319ca-df1f-40c1-b12b-199046de6764
+	at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
 
-com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest[chrome](0)  Time elapsed: 4.507 s  <<< FAILURE!
-java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=15148ec0-0865-11eb-863a-ad0b18ccb4b0&vid=]
+com.atmecs.automating_travelsite.tests.SearchingFlight.searchingFlight[Bangalore, Chennai](4)  Time elapsed: 39.547 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Tuesday, 6 October 2020']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: decb5720f730c5e46028666ad3597afe
+*** Element info: {Using=xpath, value=//button[@aria-label='Tuesday, 6 October 2020']}
+	at com.atmecs.automating_travelsite.tests.SearchingFlight.searchingFlight(SearchingFlight.java:28)
 
-com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest[firefox](0)  Time elapsed: 3.399 s  <<< FAILURE!
-java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=17145660-0865-11eb-ba71-d70f9ea848c2&vid=]
+com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow[shanealfin720@gmail.com, alfinxavier.a](3)  Time elapsed: 1.779 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 29588, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 54b7e9b7-7459-4bd5-af0b-5ba73f332f2c
+	at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
+
+com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow[shanealfin720@gmail.com, alfinxavier.a](4)  Time elapsed: 83.589 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24596, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 963a2533-a249-40d2-abfd-49855134351a
+	at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
+
+com.atmecs.automating_travelsite.tests.HandlingWindow.afterTest  Time elapsed: 83.608 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3f517bf5d89716c6c6d452468d6a57ac
+
+com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow[shanealfin720@gmail.com, alfinxavier.a](5)  Time elapsed: 6.572 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 5004, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 92c39b1a-1e66-42ab-8fc7-25a497a5544d
+	at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
 
