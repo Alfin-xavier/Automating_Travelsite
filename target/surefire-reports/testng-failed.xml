@@ -17,7 +17,7 @@
       <class name="com.atmecs.automating_travelsite.tests.SearchingFlight">
         <methods>
           <include name="afterTest"/>
-          <include name="searchingFlight" invocation-numbers="3"/>
+          <include name="searchingFlight"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.atmecs.automating_travelsite.tests.SearchingFlight -->
@@ -30,9 +30,16 @@
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="handlingWindow" invocation-numbers="0 1 2 3 4"/>
+          <include name="handlingWindow"/>
         </methods>
       </class> <!-- com.atmecs.automating_travelsite.tests.HandlingWindow -->
+      <class name="com.atmecs.automating_travelsite.tests.SearchingFlight">
+        <methods>
+          <include name="afterTest"/>
+          <include name="searchingFlight"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.atmecs.automating_travelsite.tests.SearchingFlight -->
     </classes>
   </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

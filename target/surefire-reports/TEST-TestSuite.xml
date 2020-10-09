@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="470.097" tests="29" errors="0" skipped="12" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="57.824" tests="56" errors="0" skipped="50" failures="4">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="webdriver.chrome.driver" value="./lib/chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire7668598783549385872\surefirebooter6510696616697574094.jar C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire7668598783549385872 2020-10-08T15-50-41_594-jvmRun1 surefire8574489731322416212tmp surefire_08379606374974955607tmp"/>
+    <property name="sun.java.command" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire8632753396796997229\surefirebooter6526987108094956709.jar C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire8632753396796997229 2020-10-09T15-44-46_396-jvmRun1 surefire9764378601396468793tmp surefire_012032305522748637039tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\alfin.anthonyraj\Automation_Selenium\automating_travelsite\target\test-classes;C:\Users\alfin.anthonyraj\Automation_Selenium\automating_travelsite\target\classes;C:\Users\alfin.anthonyraj\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alfin.anthonyraj\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alfin.anthonyraj\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alfin.anthonyraj\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire7668598783549385872\surefirebooter6510696616697574094.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire8632753396796997229\surefirebooter6526987108094956709.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="searchingFlight[Chennai, Hyderabad](1)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="1.248">
+  <testcase name="searchingFlight[Chennai, Hyderabad](1)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="5.612">
     <system-out><![CDATA[https://www.skyscanner.co.in/
 searchingFlight Startded!!
 Select RoundTrip
@@ -67,33 +67,33 @@ Clicking Date
 Select Depature Date
 Clicking Date
 Select Return Date
-https://www.skyscanner.co.in/
-searchingFlight Startded!!
-Select RoundTrip
 Select checkbox
-Select Source
 Clicking on the Search Button
 searchingFlight Passed!!
-Select Destination
 ]]></system-out>
-    <system-err><![CDATA[1602152444002	geckodriver	INFO	Listening on 127.0.0.1:14051
-Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 6057
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 7569
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+1602238490191	geckodriver	INFO	Listening on 127.0.0.1:7607
 ChromeDriver was started successfully.
-1602152444599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileWpvFfN"
-Oct 08, 2020 3:50:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602238490657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilegDoanF"
+Oct 09, 2020 3:44:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602152449925	Marionette	INFO	Listening on port 52899
-1602152450368	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 08, 2020 3:50:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602238500251	Marionette	INFO	Listening on port 61083
+1602238500701	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 09, 2020 3:45:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="searchingFlight[Chennai, Hyderabad](1)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="6.057">
-    <system-out><![CDATA[Clicking Date
+  <testcase name="searchingFlight[Chennai, Hyderabad](1)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="3.769">
+    <system-out><![CDATA[https://www.skyscanner.co.in/
+searchingFlight Startded!!
+Select RoundTrip
+Select Source
+Select Destination
+Clicking Date
 Select Depature Date
 Clicking Date
 Select Return Date
@@ -101,508 +101,277 @@ Select checkbox
 Clicking on the Search Button
 searchingFlight Passed!!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 43245
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-1602152474045	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+    <system-err><![CDATA[1602238517420	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 TimedPromise/<@chrome://marionette/content/sync.js:245:13
 TimedPromise@chrome://marionette/content/sync.js:230:10
 interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
 webdriverClickElement@chrome://marionette/content/interaction.js:182:31
-Oct 08, 2020 3:51:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="searchingFlight[Coimbatore, Chennai](2)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="1.847">
-    <system-out><![CDATA[https://www.skyscanner.co.in/
-searchingFlight Startded!!
-Select RoundTrip
-Select Source
-Select Destination
-Clicking Date
-Select Depature Date
-Clicking Date
-Select Return Date
-Select checkbox
-Clicking on the Search Button
-searchingFlight Passed!!
-]]></system-out>
-    <system-err><![CDATA[1602152477915	Marionette	INFO	Stopped listening on port 52899
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602152480104	geckodriver	INFO	Listening on 127.0.0.1:11504
-1602152480553	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilebuUETI"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602152487345	Marionette	INFO	Listening on port 53095
-1602152487590	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 08, 2020 3:51:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="searchingFlight[Coimbatore, Chennai](2)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="3.543">
-    <system-out><![CDATA[https://www.skyscanner.co.in/
-searchingFlight Startded!!
-Select RoundTrip
-Select Source
-Select Destination
-Clicking Date
-Select Depature Date
-Clicking Date
-Select Return Date
-Select checkbox
-Clicking on the Search Button
-searchingFlight Passed!!
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 30508
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 11947
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 08, 2020 3:51:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-1602152508996	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:245:13
-TimedPromise@chrome://marionette/content/sync.js:230:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
 ]]></system-err>
   </testcase>
-  <testcase name="searchingFlight[Chennai, Bangalore](3)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="1.792">
-    <system-out><![CDATA[https://www.skyscanner.co.in/
-searchingFlight Startded!!
-Select RoundTrip
-Select Source
-Select Destination
-Clicking Date
-Select Depature Date
-Clicking Date
-Select Return Date
-Select checkbox
-Clicking on the Search Button
-searchingFlight Passed!!
-]]></system-out>
-    <system-err><![CDATA[1602152510806	Marionette	INFO	Stopped listening on port 53095
-JavaScript error: , line 0: uncaught exception: undefined
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602152513310	geckodriver	INFO	Listening on 127.0.0.1:45485
-1602152513778	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilei0l5bT"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602152516955	Marionette	INFO	Listening on port 53258
-1602152517423	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 08, 2020 3:51:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
-console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
-]]></system-err>
-  </testcase>
-  <testcase name="searchingFlight[Chennai, Bangalore](3)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="17.19">
-    <system-out><![CDATA[https://www.skyscanner.co.in/
-searchingFlight Startded!!
-Select RoundTrip
-Select Source
-Select Destination
-Clicking Date
-Select Depature Date
-Clicking Date
-Select Return Date
-Select checkbox
-Clicking on the Search Button
-searchingFlight Passed!!
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 34932
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 08, 2020 3:52:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-1602152561231	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:245:13
-TimedPromise@chrome://marionette/content/sync.js:230:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
-]]></system-err>
-  </testcase>
-  <testcase name="searchingFlight[Bangalore, Chennai](4)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="3.236">
-    <system-out><![CDATA[https://www.skyscanner.co.in/
-searchingFlight Startded!!
-Select RoundTrip
-Select Source
-Select Destination
-Clicking Date
-https://www.skyscanner.co.in/
-searchingFlight Startded!!
-Select RoundTrip
-Select Source
-Select Destination
-Clicking Date
-Select Depature Date
-Clicking Date
-Select Return Date
-Select checkbox
-Clicking on the Search Button
-searchingFlight Passed!!
-]]></system-out>
-    <system-err><![CDATA[1602152577089	Marionette	INFO	Stopped listening on port 53258
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602152580914	geckodriver	INFO	Listening on 127.0.0.1:18425
-1602152581356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileZwKzrd"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602152584321	Marionette	INFO	Listening on port 53492
-1602152584500	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 08, 2020 3:53:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-1602152601175	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:245:13
-TimedPromise@chrome://marionette/content/sync.js:230:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
-]]></system-err>
-  </testcase>
-  <testcase name="searchingFlight[Bangalore, Chennai](4)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="39.547">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@aria-label=&apos;Tuesday, 6 October 2020&apos;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: decb5720f730c5e46028666ad3597afe&#10;*** Element info: {Using=xpath, value=//button[@aria-label=&apos;Tuesday, 6 October 2020&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Tuesday, 6 October 2020']"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: decb5720f730c5e46028666ad3597afe
-*** Element info: {Using=xpath, value=//button[@aria-label='Tuesday, 6 October 2020']}
-	at com.atmecs.automating_travelsite.tests.SearchingFlight.searchingFlight(SearchingFlight.java:28)
+  <testcase name="beforeTest[chrome](0)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="10.164">
+    <failure message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&amp;vid=]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]
 ]]></failure>
-    <system-out><![CDATA[searchingFlight Failed!!
+    <system-out><![CDATA[https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=
 ]]></system-out>
-    <system-err><![CDATA[JavaScript error: /accounts/static/_/js/k=gaia.gaiafe_glif.en_GB.PH1qu_HtIcE.O/am=740fMPAHRYgBB4AAMwAAAAAAAABgAHgAWJZH1WsV3z8M/d=1/ct=zgms/rs=ABkqax2JlELK8Q6jAyaryoRef2auSPRvOw/m=glifb,identifier_view,unknownerror_view, line 606: NS_ERROR_NOT_INITIALIZED: 
-1602152713634	geckodriver	INFO	Listening on 127.0.0.1:43724
-1602152714090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileVQY084"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602152717180	Marionette	INFO	Listening on port 54126
-1602152717243	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 08, 2020 3:55:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="searchingFlight[Hyderabad, Chennai](5)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="2.947">
-    <system-out><![CDATA[https://www.skyscanner.co.in/
-searchingFlight Startded!!
-Select RoundTrip
-Select Source
-Select Destination
-Clicking Date
-Select Depature Date
-Clicking Date
-Select Return Date
-Select checkbox
-Clicking on the Search Button
-searchingFlight Passed!!
-]]></system-out>
-    <system-err><![CDATA[1602152602911	Marionette	INFO	Stopped listening on port 53492
+    <system-err><![CDATA[1602238519523	Marionette	INFO	Stopped listening on port 61083
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1602152605486	geckodriver	INFO	Listening on 127.0.0.1:48424
-1602152605950	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofile8is1Mv"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602152609110	Marionette	INFO	Listening on port 53647
-1602152609270	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 08, 2020 3:53:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 09, 2020 3:45:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1602152633628	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:245:13
-TimedPromise@chrome://marionette/content/sync.js:230:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
 ]]></system-err>
   </testcase>
-  <testcase name="searchingFlight[Hyderabad, Chennai](5)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="9.148">
-    <system-out><![CDATA[https://www.skyscanner.co.in/
-handlingWindow Startded!!
-Clicking on the Login linktext
-Clicking login with gmail
-Switching Window
-Providing Username
-Clicking the next button
-https://www.skyscanner.co.in/
-searchingFlight Startded!!
-Select RoundTrip
-Select Source
-Select Destination
-Clicking Date
-Select Depature Date
-Clicking Date
-Select Return Date
-Select checkbox
-Clicking on the Search Button
-searchingFlight Passed!!
+  <testcase name="searchingFlight[Coimbatore, Chennai](2)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+Skipped TestCase: searchingFlight
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 28550
+  </testcase>
+  <testcase name="searchingFlight[Coimbatore, Chennai](2)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="searchingFlight[Chennai, Bangalore](3)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="searchingFlight[Chennai, Bangalore](3)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="searchingFlight[Bangalore, Chennai](4)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="searchingFlight[Bangalore, Chennai](4)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="searchingFlight[Hyderabad, Chennai](5)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="searchingFlight[Hyderabad, Chennai](5)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&amp;vid=]"/>
+    <system-out><![CDATA[searchingFlight Startded!!
+Skipped TestCase: searchingFlight
+]]></system-out>
+  </testcase>
+  <testcase name="beforeTest[firefox](0)" classname="com.atmecs.automating_travelsite.tests.SearchingFlight" time="3.011">
+    <failure message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&amp;vid=]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]
+]]></failure>
+    <system-out><![CDATA[https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=
+]]></system-out>
+    <system-err><![CDATA[1602238531013	Marionette	INFO	Listening on port 61301
+1602238531043	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 09, 2020 3:45:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="beforeTest[chrome](0)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="4.628">
+    <failure message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&amp;vid=]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]
+]]></failure>
+    <system-out><![CDATA[https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 33633
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 08, 2020 3:55:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602238526393	geckodriver	INFO	Listening on 127.0.0.1:29421
+1602238526895	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileopPo6p"
+Oct 09, 2020 3:45:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](1)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="22.355">
-    <failure message="Element &lt;input class=&quot;whsOnd zHQkBf&quot; name=&quot;password&quot; type=&quot;password&quot;&gt; is not reachable by keyboard&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 27180, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 992c0627-593a-40a3-95c2-77c93a7e6446" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 27180, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 992c0627-593a-40a3-95c2-77c93a7e6446
-	at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
-]]></failure>
-    <system-out><![CDATA[https://www.skyscanner.co.in/
-handlingWindow Startded!!
-Clicking on the Login linktext
-Clicking login with gmail
-Switching Window
-Providing Username
-Clicking the next button
-handlingWindow Failed!!
-]]></system-out>
-    <system-err><![CDATA[1602152635203	Marionette	INFO	Stopped listening on port 53647
-[Child 32520, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
-[Child 32520, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1602152637410	geckodriver	INFO	Listening on 127.0.0.1:25175
-1602152637873	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileXXTckS"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602152644584	Marionette	INFO	Listening on port 53775
-1602152644717	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 08, 2020 3:54:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](1)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="83.599"/>
-  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](2)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="16.657">
-    <failure message="Element &lt;input class=&quot;whsOnd zHQkBf&quot; name=&quot;password&quot; type=&quot;password&quot;&gt; is not reachable by keyboard&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 33648, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: a3b319ca-df1f-40c1-b12b-199046de6764" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 33648, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a3b319ca-df1f-40c1-b12b-199046de6764
-	at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
-]]></failure>
-    <system-out><![CDATA[https://www.skyscanner.co.in/
-handlingWindow Startded!!
-Clicking on the Login linktext
-Clicking login with gmail
-Switching Window
-Providing Username
-Clicking the next button
-handlingWindow Failed!!
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](1)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+Skipped TestCase: handlingWindow
 ]]></system-out>
-    <system-err><![CDATA[JavaScript error: /accounts/static/_/js/k=gaia.gaiafe_glif.en_GB.PH1qu_HtIcE.O/am=740fMPAHRYgBB4AAMwAAAAAAAABgAHgA2JZH1WsVXz8M/d=1/ct=zgms/rs=ABkqax3v4aZ45-1tJTnxUsJ8uR0FG7u0ng/m=glifb,identifier_view,unknownerror_view, line 606: NS_ERROR_NOT_INITIALIZED: 
-1602152677858	geckodriver	INFO	Listening on 127.0.0.1:36532
-1602152678347	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofilezC2EAf"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602152681571	Marionette	INFO	Listening on port 53940
-1602152681980	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 08, 2020 3:54:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-1602152701645	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:245:13
-TimedPromise@chrome://marionette/content/sync.js:230:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
-]]></system-err>
+  </testcase>
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](1)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+Skipped TestCase: handlingWindow
+]]></system-out>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped/>
   </testcase>
   <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](2)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f517bf5d89716c6c6d452468d6a57ac"/>
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&amp;vid=]"/>
     <system-out><![CDATA[handlingWindow Startded!!
 Skipped TestCase: handlingWindow
 ]]></system-out>
   </testcase>
-  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](3)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="1.779">
-    <failure message="Element &lt;input class=&quot;whsOnd zHQkBf&quot; name=&quot;password&quot; type=&quot;password&quot;&gt; is not reachable by keyboard&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 29588, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 54b7e9b7-7459-4bd5-af0b-5ba73f332f2c" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 29588, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 54b7e9b7-7459-4bd5-af0b-5ba73f332f2c
-	at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
-]]></failure>
-    <system-out><![CDATA[https://www.skyscanner.co.in/
-handlingWindow Startded!!
-Clicking on the Login linktext
-handlingWindow Failed!!
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](2)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+Skipped TestCase: handlingWindow
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 44145
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 08, 2020 3:56:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
   <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](3)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f517bf5d89716c6c6d452468d6a57ac"/>
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&amp;vid=]"/>
     <system-out><![CDATA[handlingWindow Startded!!
 Skipped TestCase: handlingWindow
 ]]></system-out>
   </testcase>
-  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](4)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="83.589">
-    <failure message="Element &lt;input class=&quot;whsOnd zHQkBf&quot; name=&quot;password&quot; type=&quot;password&quot;&gt; is not reachable by keyboard&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24596, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 963a2533-a249-40d2-abfd-49855134351a" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24596, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 963a2533-a249-40d2-abfd-49855134351a
-	at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
-]]></failure>
-    <system-out><![CDATA[Clicking login with gmail
-Switching Window
-Providing Username
-Clicking the next button
-https://www.skyscanner.co.in/
-handlingWindow Startded!!
-Clicking on the Login linktext
-Clicking login with gmail
-Switching Window
-Providing Username
-Clicking the next button
-Providing Password
-Clicking the next button
-handlingWindow Passed!!
-handlingWindow Failed!!
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](3)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+Skipped TestCase: handlingWindow
 ]]></system-out>
-    <system-err><![CDATA[JavaScript error: /accounts/static/_/js/k=gaia.gaiafe_glif.en_GB.PH1qu_HtIcE.O/am=740fMPAHRYgBB4AAMwAAAAAAAABgAHgAWJYH1WsV3z8M/d=1/ct=zgms/rs=ABkqax1B7FHYOnK3NxfHlpOK6O2e-J6Vtw/m=glifb,identifier_view,unknownerror_view, line 606: NS_ERROR_NOT_INITIALIZED: 
-1602152788873	geckodriver	INFO	Listening on 127.0.0.1:39844
-1602152789325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileusC6ZS"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602152792835	Marionette	INFO	Listening on port 54396
-1602152792968	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 08, 2020 3:56:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
-console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
-]]></system-err>
   </testcase>
   <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](4)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f517bf5d89716c6c6d452468d6a57ac"/>
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&amp;vid=]"/>
     <system-out><![CDATA[handlingWindow Startded!!
 Skipped TestCase: handlingWindow
 ]]></system-out>
   </testcase>
-  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="83.608">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f517bf5d89716c6c6d452468d6a57ac" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f517bf5d89716c6c6d452468d6a57ac
-]]></failure>
-  </testcase>
-  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeTest" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped/>
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](4)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+Skipped TestCase: handlingWindow
+]]></system-out>
   </testcase>
   <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](5)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
-    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f517bf5d89716c6c6d452468d6a57ac"/>
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&amp;vid=]"/>
     <system-out><![CDATA[handlingWindow Startded!!
 Skipped TestCase: handlingWindow
 ]]></system-out>
   </testcase>
-  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](5)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="6.572">
-    <failure message="Element &lt;input class=&quot;whsOnd zHQkBf&quot; name=&quot;password&quot; type=&quot;password&quot;&gt; is not reachable by keyboard&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 5004, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 92c39b1a-1e66-42ab-8fc7-25a497a5544d" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 5004, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 92c39b1a-1e66-42ab-8fc7-25a497a5544d
-	at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
-]]></failure>
-    <system-out><![CDATA[https://www.skyscanner.co.in/
-handlingWindow Startded!!
-Clicking on the Login linktext
-Clicking login with gmail
-Switching Window
-Providing Username
-Clicking the next button
-handlingWindow Failed!!
+  <testcase name="handlingWindow[shanealfin720@gmail.com, alfinxavier.a](5)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="0">
+    <skipped message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&amp;vid=]"/>
+    <system-out><![CDATA[handlingWindow Startded!!
+Skipped TestCase: handlingWindow
 ]]></system-out>
-    <system-err><![CDATA[IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-JavaScript error: /accounts/static/_/js/k=gaia.gaiafe_glif.en_GB.PH1qu_HtIcE.O/am=740fMPAHRYgBB4AAMwAAAAAAAABgAHgAWJZH1WsV3z8M/d=1/ct=zgms/rs=ABkqax2JlELK8Q6jAyaryoRef2auSPRvOw/m=glifb,identifier_view,unknownerror_view, line 606: NS_ERROR_NOT_INITIALIZED: 
-1602152890632	geckodriver	INFO	Listening on 127.0.0.1:35078
-1602152891049	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileWitAyj"
+  </testcase>
+  <testcase name="beforeTest[firefox](0)" classname="com.atmecs.automating_travelsite.tests.HandlingWindow" time="9.779">
+    <failure message="expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&amp;uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&amp;vid=]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]
+]]></failure>
+    <system-out><![CDATA[https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=
+]]></system-out>
+    <system-err><![CDATA[1602238533738	geckodriver	INFO	Listening on 127.0.0.1:18105
+1602238534199	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALFIN~1.ANT\\AppData\\Local\\Temp\\rust_mozprofileya4uR9"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1602152893863	Marionette	INFO	Listening on port 54594
-1602152894247	Marionette	WARN	TLS certificate errors will be ignored for this session
-Oct 08, 2020 3:58:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602238539971	Marionette	INFO	Listening on port 61361
+1602238540469	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 09, 2020 3:45:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

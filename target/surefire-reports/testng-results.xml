@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="10" failed="6" skipped="4">
+<testng-results ignored="0" total="20" passed="2" failed="0" skipped="18">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-08T15:50:42 IST" name="Suite" finished-at="2020-10-08T15:58:32 IST" duration-ms="469225">
+  <suite started-at="2020-10-09T15:44:47 IST" name="Suite" finished-at="2020-10-09T15:45:43 IST" duration-ms="55458">
     <groups>
     </groups>
-    <test started-at="2020-10-08T15:50:42 IST" name="Test1" finished-at="2020-10-08T15:58:10 IST" duration-ms="447564">
+    <test started-at="2020-10-09T15:44:47 IST" name="Test1" finished-at="2020-10-09T15:45:30 IST" duration-ms="42667">
       <class name="com.atmecs.automating_travelsite.tests.HandlingWindow">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:56:15 IST" name="beforeTest" finished-at="2020-10-08T15:56:26 IST" duration-ms="11041" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:25 IST" name="beforeTest" finished-at="2020-10-09T15:45:30 IST" duration-ms="4538" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -15,60 +15,19 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:56:26 IST" name="handlingWindow" data-provider="readData" finished-at="2020-10-08T15:57:05 IST" duration-ms="38482" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shanealfin720@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[alfinxavier.a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlingWindow -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="afterTest" finished-at="2020-10-08T15:58:10 IST" duration-ms="8" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f517bf5d89716c6c6d452468d6a57ac]]>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f517bf5d89716c6c6d452468d6a57ac
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at com.atmecs.automating_travelsite.basetest.BaseTest.afterTest(BaseTest.java:62)
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -78,8 +37,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -99,15 +57,11 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602152890475" status="SKIP">
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="handlingWindow" data-provider="readData" finished-at="2020-10-08T15:58:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="handlingWindow" data-provider="login" finished-at="2020-10-09T15:45:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -120,40 +74,19 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f517bf5d89716c6c6d452468d6a57ac]]>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f517bf5d89716c6c6d452468d6a57ac
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at com.atmecs.automating_travelsite.basetest.BaseTest.afterTest(BaseTest.java:62)
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -163,8 +96,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -184,19 +116,23 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingWindow -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602152890477" status="SKIP">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238530536" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602152890477" status="SKIP">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238530537" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="handlingWindow" data-provider="readData" finished-at="2020-10-08T15:58:10 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238530537" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="handlingWindow" data-provider="login" finished-at="2020-10-09T15:45:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -209,40 +145,19 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f517bf5d89716c6c6d452468d6a57ac]]>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f517bf5d89716c6c6d452468d6a57ac
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at com.atmecs.automating_travelsite.basetest.BaseTest.afterTest(BaseTest.java:62)
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -252,8 +167,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -273,19 +187,19 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingWindow -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602152890478" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602152890478" status="SKIP">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238530538" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="handlingWindow" data-provider="readData" finished-at="2020-10-08T15:58:10 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238530538" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="handlingWindow" data-provider="login" finished-at="2020-10-09T15:45:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -298,40 +212,19 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f517bf5d89716c6c6d452468d6a57ac]]>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f517bf5d89716c6c6d452468d6a57ac
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at com.atmecs.automating_travelsite.basetest.BaseTest.afterTest(BaseTest.java:62)
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -341,8 +234,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -362,19 +254,11 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingWindow -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602152890479" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602152890480" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="handlingWindow" data-provider="readData" finished-at="2020-10-08T15:58:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="handlingWindow" data-provider="login" finished-at="2020-10-09T15:45:30 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -387,40 +271,19 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f517bf5d89716c6c6d452468d6a57ac]]>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f517bf5d89716c6c6d452468d6a57ac
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at com.atmecs.automating_travelsite.basetest.BaseTest.afterTest(BaseTest.java:62)
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -430,8 +293,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -451,17 +313,88 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingWindow -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@45dd4eda]" started-at="2020-10-08T15:58:10 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602152890480" status="SKIP">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238530539" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238530541" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="handlingWindow" data-provider="login" finished-at="2020-10-09T15:45:30 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shanealfin720@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alfinxavier.a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingWindow -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238530542" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@3b2cf7ab]" started-at="2020-10-09T15:45:30 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238530542" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- com.atmecs.automating_travelsite.tests.HandlingWindow -->
       <class name="com.atmecs.automating_travelsite.tests.SearchingFlight">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:50:43 IST" name="beforeTest" finished-at="2020-10-08T15:51:09 IST" duration-ms="26440" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:44:48 IST" name="beforeTest" finished-at="2020-10-09T15:45:08 IST" duration-ms="19911" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -472,7 +405,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:51:09 IST" name="searchingFlight" data-provider="readData" finished-at="2020-10-08T15:51:12 IST" duration-ms="2387" status="PASS">
+        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:08 IST" name="searchingFlight" data-provider="search_flight" finished-at="2020-10-09T15:45:11 IST" duration-ms="3436" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -488,11 +421,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchingFlight -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:51:13 IST" name="afterTest" finished-at="2020-10-08T15:51:13 IST" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:14 IST" name="afterTest" finished-at="2020-10-09T15:45:18 IST" duration-ms="4097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:51:13 IST" name="beforeTest" finished-at="2020-10-08T15:51:31 IST" duration-ms="17827" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:18 IST" name="beforeTest" finished-at="2020-10-09T15:45:25 IST" duration-ms="7698" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -500,10 +433,53 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:51:31 IST" name="searchingFlight" data-provider="readData" finished-at="2020-10-08T15:51:32 IST" duration-ms="1286" status="PASS">
+        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:25 IST" name="searchingFlight" data-provider="search_flight" finished-at="2020-10-09T15:45:25 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -516,114 +492,29 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchingFlight -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:51:33 IST" name="afterTest" finished-at="2020-10-08T15:51:37 IST" duration-ms="4094" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:51:37 IST" name="beforeTest" finished-at="2020-10-08T15:52:21 IST" duration-ms="43781" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:52:21 IST" name="searchingFlight" data-provider="readData" finished-at="2020-10-08T15:52:22 IST" duration-ms="1225" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchingFlight -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:52:23 IST" name="afterTest" finished-at="2020-10-08T15:52:27 IST" duration-ms="4078" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:52:27 IST" name="beforeTest" finished-at="2020-10-08T15:53:05 IST" duration-ms="38741" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:53:05 IST" name="searchingFlight" data-provider="readData" finished-at="2020-10-08T15:55:36 IST" duration-ms="150427" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Tuesday, 6 October 2020']"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: decb5720f730c5e46028666ad3597afe
-*** Element info: {Using=xpath, value=//button[@aria-label='Tuesday, 6 October 2020']}]]>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Tuesday, 6 October 2020']"}
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\ALFIN~1.ANT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: decb5720f730c5e46028666ad3597afe
-*** Element info: {Using=xpath, value=//button[@aria-label='Tuesday, 6 October 2020']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.atmecs.automating_travelsite.helpers.Helpers.clickOpertaion(Helpers.java:60)
-at com.atmecs.automating_travelsite.pagehelper.SearchingFlights.twoWayTripSelectionTest(SearchingFlights.java:53)
-at com.atmecs.automating_travelsite.tests.SearchingFlight.searchingFlight(SearchingFlight.java:28)
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -643,26 +534,145 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchingFlight -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:55:36 IST" name="afterTest" finished-at="2020-10-08T15:55:40 IST" duration-ms="4332" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:55:40 IST" name="beforeTest" finished-at="2020-10-08T15:56:02 IST" duration-ms="21733" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:25 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238525911" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:56:02 IST" name="searchingFlight" data-provider="readData" finished-at="2020-10-08T15:56:04 IST" duration-ms="2071" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:25 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238525911" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:25 IST" name="searchingFlight" data-provider="search_flight" finished-at="2020-10-09T15:45:25 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingFlight -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:25 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238525912" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:25 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238525912" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:25 IST" name="searchingFlight" data-provider="search_flight" finished-at="2020-10-09T15:45:25 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingFlight -->
+        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:25 IST" name="searchingFlight" data-provider="search_flight" finished-at="2020-10-09T15:45:25 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -675,18 +685,69 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchingFlight -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@327b636c]" started-at="2020-10-08T15:56:11 IST" name="afterTest" finished-at="2020-10-08T15:56:15 IST" duration-ms="4281" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:25 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238525913" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:25 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238525913" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@3a079870]" started-at="2020-10-09T15:45:25 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238525913" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.atmecs.automating_travelsite.tests.SearchingFlight -->
     </test> <!-- Test1 -->
-    <test started-at="2020-10-08T15:50:42 IST" name="Test2" finished-at="2020-10-08T15:58:32 IST" duration-ms="469225">
+    <test started-at="2020-10-09T15:44:47 IST" name="Test2" finished-at="2020-10-09T15:45:43 IST" duration-ms="55458">
       <class name="com.atmecs.automating_travelsite.tests.HandlingWindow">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:53:57 IST" name="beforeTest" finished-at="2020-10-08T15:54:15 IST" duration-ms="18031" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:33 IST" name="beforeTest" finished-at="2020-10-09T15:45:43 IST" duration-ms="9721" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -694,59 +755,29 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:54:15 IST" name="handlingWindow" data-provider="readData" finished-at="2020-10-08T15:54:37 IST" duration-ms="22349" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shanealfin720@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[alfinxavier.a]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 27180, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 992c0627-593a-40a3-95c2-77c93a7e6446]]>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 27180, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 992c0627-593a-40a3-95c2-77c93a7e6446
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-at com.atmecs.automating_travelsite.pagehelper.LoginWindowHandling.handlingWindowTest(LoginWindowHandling.java:57)
-at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -766,26 +797,11 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlingWindow -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:54:37 IST" name="afterTest" finished-at="2020-10-08T15:54:37 IST" duration-ms="39" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:54:37 IST" name="beforeTest" finished-at="2020-10-08T15:54:56 IST" duration-ms="19084" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:54:56 IST" name="handlingWindow" data-provider="readData" finished-at="2020-10-08T15:55:13 IST" duration-ms="16658" status="FAIL">
+        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="handlingWindow" data-provider="login" finished-at="2020-10-09T15:45:43 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -798,43 +814,29 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 33648, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a3b319ca-df1f-40c1-b12b-199046de6764]]>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 33648, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a3b319ca-df1f-40c1-b12b-199046de6764
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-at com.atmecs.automating_travelsite.pagehelper.LoginWindowHandling.handlingWindowTest(LoginWindowHandling.java:57)
-at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -854,26 +856,23 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingWindow -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:55:13 IST" name="afterTest" finished-at="2020-10-08T15:55:13 IST" duration-ms="41" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:55:13 IST" name="beforeTest" finished-at="2020-10-08T15:55:45 IST" duration-ms="32157" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238543330" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:55:45 IST" name="handlingWindow" data-provider="readData" finished-at="2020-10-08T15:56:28 IST" duration-ms="43031" status="FAIL">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238543330" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238543331" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="handlingWindow" data-provider="login" finished-at="2020-10-09T15:45:43 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -886,43 +885,29 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 29588, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 54b7e9b7-7459-4bd5-af0b-5ba73f332f2c]]>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 29588, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 54b7e9b7-7459-4bd5-af0b-5ba73f332f2c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-at com.atmecs.automating_travelsite.pagehelper.LoginWindowHandling.handlingWindowTest(LoginWindowHandling.java:57)
-at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -942,26 +927,15 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingWindow -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:56:28 IST" name="afterTest" finished-at="2020-10-08T15:56:28 IST" duration-ms="42" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:56:28 IST" name="beforeTest" finished-at="2020-10-08T15:56:46 IST" duration-ms="18096" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238543332" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:56:46 IST" name="handlingWindow" data-provider="readData" finished-at="2020-10-08T15:58:10 IST" duration-ms="83589" status="FAIL">
+        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="handlingWindow" data-provider="login" finished-at="2020-10-09T15:45:43 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -974,43 +948,29 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24596, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 963a2533-a249-40d2-abfd-49855134351a]]>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24596, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 963a2533-a249-40d2-abfd-49855134351a
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-at com.atmecs.automating_travelsite.pagehelper.LoginWindowHandling.handlingWindowTest(LoginWindowHandling.java:57)
-at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -1030,26 +990,23 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingWindow -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:58:10 IST" name="afterTest" finished-at="2020-10-08T15:58:10 IST" duration-ms="45" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:58:10 IST" name="beforeTest" finished-at="2020-10-08T15:58:25 IST" duration-ms="15031" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238543333" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:58:25 IST" name="handlingWindow" data-provider="readData" finished-at="2020-10-08T15:58:32 IST" duration-ms="6573" status="FAIL">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238543333" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238543334" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="handlingWindow" data-provider="login" finished-at="2020-10-09T15:45:43 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1062,43 +1019,29 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 5004, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 92c39b1a-1e66-42ab-8fc7-25a497a5544d]]>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 5004, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 92c39b1a-1e66-42ab-8fc7-25a497a5544d
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-at com.atmecs.automating_travelsite.pagehelper.LoginWindowHandling.handlingWindowTest(LoginWindowHandling.java:57)
-at com.atmecs.automating_travelsite.tests.HandlingWindow.handlingWindow(HandlingWindow.java:31)
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -1118,17 +1061,80 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingWindow -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@7fc2413d]" started-at="2020-10-08T15:58:32 IST" name="afterTest" finished-at="2020-10-08T15:58:32 IST" duration-ms="37" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238543335" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+        <test-method signature="handlingWindow(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="handlingWindow" data-provider="login" finished-at="2020-10-09T15:45:43 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shanealfin720@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alfinxavier.a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingWindow -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.HandlingWindow@1d76aeea]" started-at="2020-10-09T15:45:43 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238543335" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
       </class> <!-- com.atmecs.automating_travelsite.tests.HandlingWindow -->
       <class name="com.atmecs.automating_travelsite.tests.SearchingFlight">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:50:43 IST" name="beforeTest" finished-at="2020-10-08T15:51:11 IST" duration-ms="28323" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:44:48 IST" name="beforeTest" finished-at="2020-10-09T15:45:15 IST" duration-ms="27210" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1139,7 +1145,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:51:11 IST" name="searchingFlight" data-provider="readData" finished-at="2020-10-08T15:51:17 IST" duration-ms="5975" status="PASS">
+        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:15 IST" name="searchingFlight" data-provider="search_flight" finished-at="2020-10-09T15:45:18 IST" duration-ms="3056" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1155,11 +1161,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchingFlight -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:51:17 IST" name="afterTest" finished-at="2020-10-08T15:51:19 IST" duration-ms="2087" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:19 IST" name="afterTest" finished-at="2020-10-09T15:45:26 IST" duration-ms="6794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:51:19 IST" name="beforeTest" finished-at="2020-10-08T15:51:47 IST" duration-ms="27259" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:26 IST" name="beforeTest" finished-at="2020-10-09T15:45:33 IST" duration-ms="7256" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1167,10 +1173,53 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:51:47 IST" name="searchingFlight" data-provider="readData" finished-at="2020-10-08T15:51:50 IST" duration-ms="3070" status="PASS">
+        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:33 IST" name="searchingFlight" data-provider="search_flight" finished-at="2020-10-09T15:45:33 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1183,25 +1232,61 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchingFlight -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:51:50 IST" name="afterTest" finished-at="2020-10-08T15:51:53 IST" duration-ms="2434" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:33 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238533555" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:51:53 IST" name="beforeTest" finished-at="2020-10-08T15:52:39 IST" duration-ms="46657" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:33 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238533556" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:52:39 IST" name="searchingFlight" data-provider="readData" finished-at="2020-10-08T15:52:56 IST" duration-ms="16643" status="PASS">
+        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:33 IST" name="searchingFlight" data-provider="search_flight" finished-at="2020-10-09T15:45:33 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1214,25 +1299,65 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchingFlight -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:52:57 IST" name="afterTest" finished-at="2020-10-08T15:53:00 IST" duration-ms="3726" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:53:00 IST" name="beforeTest" finished-at="2020-10-08T15:53:19 IST" duration-ms="18864" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:33 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238533557" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:53:19 IST" name="searchingFlight" data-provider="readData" finished-at="2020-10-08T15:53:22 IST" duration-ms="2803" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:33 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238533557" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:33 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238533558" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:33 IST" name="searchingFlight" data-provider="search_flight" finished-at="2020-10-09T15:45:33 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1245,25 +1370,53 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchingFlight -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:53:22 IST" name="afterTest" finished-at="2020-10-08T15:53:25 IST" duration-ms="2487" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:53:25 IST" name="beforeTest" finished-at="2020-10-08T15:53:52 IST" duration-ms="26840" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:53:52 IST" name="searchingFlight" data-provider="readData" finished-at="2020-10-08T15:53:54 IST" duration-ms="2630" status="PASS">
+        <test-method signature="searchingFlight(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:33 IST" name="searchingFlight" data-provider="search_flight" finished-at="2020-10-09T15:45:33 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1276,13 +1429,60 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.atmecs.automating_travelsite.basetest.BaseTest.beforeTest(BaseTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchingFlight -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@7995092a]" started-at="2020-10-08T15:53:55 IST" name="afterTest" finished-at="2020-10-08T15:53:57 IST" duration-ms="2096" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:33 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238533559" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.atmecs.automating_travelsite.tests.SearchingFlight@290d210d]" started-at="2020-10-09T15:45:33 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1602238533559" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
       </class> <!-- com.atmecs.automating_travelsite.tests.SearchingFlight -->
     </test> <!-- Test2 -->
   </suite> <!-- Suite -->

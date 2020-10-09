@@ -1,24 +1,14 @@
 package com.atmecs.automating_travelsite.tests;
 
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.atmecs.automating_travelsite.basetest.BaseTest;
-import com.atmecs.automating_travelsite.constants.Constants;
 import com.atmecs.automating_travelsite.pagehelper.SearchingFlights;
-import com.atmecs.automating_travelsite.utilities.ReadDataFromExcel;
+import com.atmecs.automating_travelsite.utilities.DataProviderClass;
 
 public class SearchingFlight extends BaseTest
 {
-	@DataProvider(name = "readData")
-	public Object[][] readData()
-	{
-		Object[][] data = ReadDataFromExcel.readExcelData(Constants.SEARCH_DATAS,"Searching_Flights");
-		
-		return data;
-	}
-	
-	@Test(dataProvider = "readData")
+
+	@Test(dataProvider = "search_flight", dataProviderClass= DataProviderClass.class)
 	public void searchingFlight(String Source, String Destination) 
 	{
 		SearchingFlights search = new SearchingFlights(driver);

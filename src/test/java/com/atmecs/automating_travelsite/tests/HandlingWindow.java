@@ -1,27 +1,15 @@
 package com.atmecs.automating_travelsite.tests;
 
 import java.io.IOException;
-
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.atmecs.automating_travelsite.basetest.BaseTest;
-import com.atmecs.automating_travelsite.constants.Constants;
 import com.atmecs.automating_travelsite.pagehelper.LoginWindowHandling;
-import com.atmecs.automating_travelsite.utilities.ReadDataFromExcel;
+import com.atmecs.automating_travelsite.utilities.DataProviderClass;
 
 public class HandlingWindow extends BaseTest
 {
 	
-	@DataProvider(name = "readData")
-	public Object[][] readData()
-	{
-		Object[][] data = ReadDataFromExcel.readExcelData(Constants.LOGIN_DATAS,"Login_credentials");
-
-		return data;
-		
-	}
-	
-	@Test(dataProvider = "readData")
+	@Test(dataProvider = "login", dataProviderClass= DataProviderClass.class)
 	public void handlingWindow(String Username, String PassWord)
 	{
 		LoginWindowHandling login = new LoginWindowHandling(driver);
