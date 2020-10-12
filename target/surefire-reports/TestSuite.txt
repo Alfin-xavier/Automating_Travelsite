@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 56, Failures: 4, Errors: 0, Skipped: 50, Time elapsed: 57.824 s <<< FAILURE! - in TestSuite
-com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest[chrome](0)  Time elapsed: 10.164 s  <<< FAILURE!
-java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5743b500-0a18-11eb-b845-bb1f95452ec4&vid=]
+Tests run: 52, Failures: 4, Errors: 0, Skipped: 44, Time elapsed: 101.414 s <<< FAILURE! - in TestSuite
+com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest[chrome](0)  Time elapsed: 13.896 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=dbc3a0b0-0c75-11eb-a617-13beac179a18&vid=]
 
-com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest[chrome](0)  Time elapsed: 4.628 s  <<< FAILURE!
-java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5b888aa0-0a18-11eb-8bd3-4b00973213b6&vid=]
+com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest[firefox](0)  Time elapsed: 2.017 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=dce84a90-0c75-11eb-8c5f-65f02a1528f5&vid=]
 
-com.atmecs.automating_travelsite.tests.SearchingFlight.beforeTest[firefox](0)  Time elapsed: 3.011 s  <<< FAILURE!
-java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=5d3a8060-0a18-11eb-a608-891f12b6e2de&vid=]
+com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest[chrome](0)  Time elapsed: 3.254 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=dec37330-0c75-11eb-a2b3-49929970d97f&vid=]
 
-com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest[firefox](0)  Time elapsed: 9.779 s  <<< FAILURE!
-java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=62796d70-0a18-11eb-ab46-95f0a06f7b6c&vid=]
+com.atmecs.automating_travelsite.tests.HandlingWindow.beforeTest[firefox](0)  Time elapsed: 6.62 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.skyscanner.co.in/] but found [https://www.skyscanner.co.in/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=e2aa2340-0c75-11eb-832a-7d31b0ce91df&vid=]
 
